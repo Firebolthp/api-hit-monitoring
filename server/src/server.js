@@ -13,7 +13,7 @@ import errorHandler from './shared/middlewares/errorHandler.js';
 import ResponseFormatter from './shared/utils/responseFormatter.js';
 
 // Routers
-import authRouter from './services/auth/routes/authRouter.js';
+import authRouter from './services/auth/routes/authRoutes.js';
 import clientRouter from './services/client/routes/clientRoutes.js';
 import ingestRouter from './services/ingest/routes/ingestRoutes.js';
 import analyticsRouter from './services/analytics/routes/analyticsRoutes.js';
